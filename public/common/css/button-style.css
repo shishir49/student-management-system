@@ -1,0 +1,8 @@
+.fa-pen-to-square, .fa-trash {
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.fa-pen-to-square:hover, .fa-trash:hover {
+    opacity: 0.8;
+}

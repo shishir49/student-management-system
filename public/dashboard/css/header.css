@@ -1,0 +1,23 @@
+.header {
+    height: 10vh;
+    background-color: #e7e9ff;
+    grid-area: header;
+    padding: 0 20px;
+}
+
+.navmenu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navmenu a {
+    color: #141414;
+    font-weight: bold;
+}
+
+.navmenu a:hover{
+    color: #414141;
+}

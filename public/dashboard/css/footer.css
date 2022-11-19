@@ -1,0 +1,17 @@
+.footer {
+    height: 8vh;
+    background-color: #e7e9ff;
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-weight: bold;
+}
+
+.footer p a {
+    font-weight: bold;
+    color: rgb(43, 43, 204);
+}

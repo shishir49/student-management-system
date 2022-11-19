@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+.main-content {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+       "title"
+       "select-user"
+    ;
+    grid-gap: 20px;
+}
+
+.title {
+    grid-area: title;
+    align-self:flex-end;
+    justify-self: center;
+}
+
+.select-user {
+    grid-area: select-user;
+    align-self:flex-start;
+    justify-self: center;
+}
+
+.select-user a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.select-user a:hover {
+    background-color: rgb(114, 35, 189);
+}

@@ -1,0 +1,143 @@
+/* Create  */
+
+.create {
+    margin: 0 10px;
+    padding: 20px;
+    background-color:white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    border-radius: 5px;
+}
+
+.primary-form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.primary-group {
+    display: grid;
+    grid-template-columns: 0.2fr 0.8fr;
+    grid-template-areas:
+        "label input"
+    ;
+}
+
+.secondary-group {
+    display: grid;
+    grid-template-columns: 0.4fr 0.6fr;
+    grid-template-areas:
+        "label input"
+    ;
+}
+
+.have-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-box-hf {
+   width: 48%;
+   display: grid;
+   grid-gap: 10px;
+}
+
+.primary-input {
+    background-color: #e3e3e3;
+    border-radius: 5px;
+}
+
+.secondary-input {
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px !important;
+}
+
+input {
+    grid-area: input;
+    outline: none;
+    border: none;
+    /* width: 100%; */
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 20px;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+}
+
+select {
+    grid-area: input;
+    outline: none;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 20px;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+}
+
+textarea {
+    grid-area: input;
+}
+
+label {
+    grid-area: label;
+    display: flex;
+    align-self: center;
+    font-weight: bold;
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.btn-primary {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #272727;
+    color: aliceblue;
+}
+
+.btn-secondary {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #3743ac;
+    color: aliceblue;
+}
+
+.btn-regular {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #3743ac;
+    color: aliceblue;
+}
+
+.frm-flx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.entry-number {
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.in-form-div {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+    display: grid;
+    grid-gap: 10px;
+}
